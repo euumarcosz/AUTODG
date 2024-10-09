@@ -1,0 +1,6 @@
+CREATE TABLE registros (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    quantidade INTEGER NOT NULL,
+    observacao TEXT,
+    data_registro DATETIME DEFAULT CURRENT_TIMESTAMP
+);
